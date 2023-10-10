@@ -6,7 +6,7 @@
 /*   By: ddel-bla <ddel-bla@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 15:32:08 by ddel-bla          #+#    #+#             */
-/*   Updated: 2023/09/27 17:48:35 by ddel-bla         ###   ########.fr       */
+/*   Updated: 2023/10/10 19:43:09 by ddel-bla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ int	main(int argc, char **argv)
 		ft_putstr_fd("OK\n", 1);
 	else
 		ft_process_main(&s_a, &s_b, line);
-	//free(line);
 	ft_exit_freelist(&s_a);
 	ft_exit_freelist(&s_b);
 	return (0);

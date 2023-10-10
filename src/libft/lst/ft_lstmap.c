@@ -6,7 +6,7 @@
 /*   By: ddel-bla <ddel-bla@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 15:30:20 by ddel-bla          #+#    #+#             */
-/*   Updated: 2023/10/10 14:04:29 by ddel-bla         ###   ########.fr       */
+/*   Updated: 2023/10/10 19:43:56 by ddel-bla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ t_list
 	start = NULL;
 	new = ft_lstnew(f(lst->content));
 	if (!new)
-	
 		return (NULL);
 	ft_lstadd_back(&start, new);
 	lst = lst->next;

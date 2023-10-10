@@ -6,12 +6,11 @@
 /*   By: ddel-bla <ddel-bla@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 11:52:19 by ddel-bla          #+#    #+#             */
-/*   Updated: 2023/10/03 16:59:04 by ddel-bla         ###   ########.fr       */
+/*   Updated: 2023/10/10 19:44:39 by ddel-bla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <push_swap.h>
-
 
 void	ft_sort_b(t_list **s_a, t_list **s_b)
 {

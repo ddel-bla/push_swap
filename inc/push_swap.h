@@ -35,9 +35,9 @@ void	ft_exit_freelist(t_list **list);
 
 int		ft_find_min(t_list *a);
 int		ft_find_max(t_list *a);
-int		ft_find_index(t_list *a, int nbr);
-int		ft_find_place_b(t_list *s_b, int number);
-int		ft_find_place_a(t_list *a, int nbr);
+int		ft_find_nbr(t_list *a, int nbr);
+int		ft_calc_place_b(t_list *s_b, int number);
+int		ft_calc_place_a(t_list *a, int nbr);
 
 void	ft_sort(t_list **s_a, t_list **s_b);
 void	ft_sort_b_till_3(t_list **s_a, t_list **s_b);

@@ -6,7 +6,7 @@
 /*   By: ddel-bla <ddel-bla@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 12:38:47 by ddel-bla          #+#    #+#             */
-/*   Updated: 2023/10/03 16:56:29 by ddel-bla         ###   ########.fr       */
+/*   Updated: 2023/10/10 15:40:44 by ddel-bla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ int	ft_case_rrarrb_a(t_list *a, t_list *b, int c)
 	int	i;
 
 	i = 0;
-	if (ft_find_place_a(a, c))
-		i = ft_lstsize(a) - ft_find_place_a(a, c);
-	if ((i < (ft_lstsize(b) - ft_find_index(b, c))) && ft_find_index(b, c))
-		i = ft_lstsize(b) - ft_find_index(b, c);
+	if (ft_calc_place_a(a, c))
+		i = ft_lstsize(a) - ft_calc_place_a(a, c);
+	if ((i < (ft_lstsize(b) - ft_find_nbr(b, c))) && ft_find_nbr(b, c))
+		i = ft_lstsize(b) - ft_find_nbr(b, c);
 	return (i);
 }

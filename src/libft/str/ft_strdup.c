@@ -6,7 +6,7 @@
 /*   By: ddel-bla <ddel-bla@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 15:07:06 by ddel-bla          #+#    #+#             */
-/*   Updated: 2023/09/18 17:04:46 by ddel-bla         ###   ########.fr       */
+/*   Updated: 2023/12/20 16:48:09 by ddel-bla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char		
 	*ft_strdup(const char *s1)
-{	
+{
 	char			*ptr;
 	size_t			len;
 	unsigned int	i;

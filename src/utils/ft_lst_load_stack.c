@@ -6,7 +6,7 @@
 /*   By: ddel-bla <ddel-bla@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/30 17:47:44 by ddel-bla          #+#    #+#             */
-/*   Updated: 2023/09/27 14:33:53 by ddel-bla         ###   ########.fr       */
+/*   Updated: 2023/10/19 18:15:51 by ddel-bla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ int	ft_lst_load_stack(int argc, char *argv[], t_list **s_a)
 	while (i < argc)
 	{
 		tmp = ft_split(argv[i++], ' ');
+		if (!tmp[0])
+			ft_exit_error(s_a, NULL, 2);
 		e = 0;
 		while (tmp[e] != 0)
 		{
